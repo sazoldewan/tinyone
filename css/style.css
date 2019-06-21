@@ -1,0 +1,65 @@
+@font-face {
+  font-family: HelveticaNeue_Bold ;
+  src: url(../fonts/HelveticaNeue_Bold.otf);
+}
+/*font-family: 'PT Sans', sans-serif;*/
+
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+/*header start*/
+header{
+	background-color: #fcdb00;
+	padding: 20px 0;
+}
+.menu ul li a{
+	font-weight: 700;
+	font-size: 22px;
+	padding: 0 40px !important;
+}
+.menu ul li:last-child a{
+	padding-right: 0px !important;
+}
+/*header end*/
+
+/*banner start*/
+
+.banner{
+	background-color: #fcdb00;
+	padding-bottom: 100px;
+}
+.banner_content{
+	margin-top: 70px;
+}
+.banner_content h1{
+	font-weight: 700;
+	font-size: 32px;
+}
+.banner_content h2{
+	font-weight: 400;
+	font-size: 20px;
+	margin: 20px 0;
+}
+.banner_content p{
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.icon li a i{
+	color: black;
+	font-size: 35px;
+	margin-right: 20px;
+}
+.banner_image{
+	margin-left: 60px;
+}
+.ci {
+    bottom: -80px;
+}
+
+.ci li {
+    width: 10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+/*banner end*/
